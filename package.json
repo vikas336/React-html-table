@@ -1,0 +1,38 @@
+{
+  "name": "react-html-table",
+  "version": "1.0.0",
+  "description": "Simple html table using ReactJs",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikas336/React-html-table.git"
+  },
+  "author": "Vikas Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikas336/React-html-table/issues"
+  },
+  "homepage": "https://github.com/vikas336/React-html-table#readme",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
