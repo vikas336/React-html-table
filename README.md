@@ -10,6 +10,7 @@ Simple html table using ReactJs
    
    const columns = [{ key: 'id', name: 'ID' }, { key: 'title', name: 'Title' },
                     { key: 'company', name: 'Company' }];
+                    
    const rows = [{ id: x, title: 'Title x', company: 'Company x' }, ...];
 
 
