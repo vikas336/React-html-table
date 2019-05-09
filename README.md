@@ -1,2 +1,2 @@
-# React-html-table
+# html-react-table
 Simple html table using ReactJs
