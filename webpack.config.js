@@ -4,7 +4,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
-    libraryTarget: 'commonjs2' 
+    libraryTarget: 'commonjs2'
   },
   module: {
     rules: [
@@ -18,6 +18,10 @@ module.exports = {
             presets: ["env"]
           }
         }
+      },
+      {
+        test: /\.css?$/,
+        use: ["style-loader", "css-loader"] // This are the loaders
       }
     ]
   },
