@@ -1,5 +1,5 @@
 {
-  "name": "react-html-table",
+  "name": "html-react-table",
   "version": "1.0.0",
   "description": "Simple html table using ReactJs",
   "main": "build/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikas336/React-html-table.git"
+    "url": "git+https://github.com/vikas336/html-react-table.git"
   },
   "author": "Vikas Yadav",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vikas336/React-html-table/issues"
+    "url": "https://github.com/vikas336/html-react-table/issues"
   },
-  "homepage": "https://github.com/vikas336/React-html-table#readme",
+  "homepage": "https://github.com/vikas336/html-react-table#readme",
   "peerDependencies": {
     "react": "^16.8.6"
   },
