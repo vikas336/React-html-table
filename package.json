@@ -12,6 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/vikas336/html-react-table.git"
   },
+  "keywords": [
+    "react",
+    "html-table",
+    "react-table"
+  ],
   "author": "Vikas Yadav",
   "license": "ISC",
   "bugs": {

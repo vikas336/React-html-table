@@ -8,9 +8,9 @@ class ReactHtmlTable extends React.Component {
     )
   }
 
-  Body(row) {
-    return <tr> {Object.keys(row).map((item) =>
-      <td>{row[item]}</td>
+  Body(row, index) {
+    return <tr key={'row' + index}>{Object.keys(row).map((item, i) =>
+      <td key={'row_' + index + '_column_' + i + '_' + item}>{row[item]}</td>
     )}
     </tr>
 
@@ -19,16 +19,15 @@ class ReactHtmlTable extends React.Component {
   render() {
     return (
       <div>
-        <p>This is ReactHtmlTable</p>
-        <table>
+        <table className="htmlReactTable">
           <thead>
-            <tr>
+            <tr key="header_row">
               {this.Header(this.props.columns)}
             </tr>
           </thead>
           <tbody>
-            {this.props.rows.map((row) =>
-              this.Body(row)
+            {this.props.rows.map((row, index) =>
+              this.Body(row, index)
             )
             }
           </tbody>
