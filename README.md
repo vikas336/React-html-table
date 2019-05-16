@@ -3,7 +3,7 @@
 
 Simple html table using ReactJs
 
-![alt text](https://raw.githubusercontent.com/gajus/table/HEAD/.README/demo.png)
+![alt text](https://raw.githubusercontent.com/vikas336/html-react-table/master/Table.PNG)
 
 # Install
 ```npm install --save html-react-table```
